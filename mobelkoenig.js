@@ -24,7 +24,7 @@ $(function() {
 
     // Add the fake page iframe
     var iframe = document.createElement('iframe');
-    iframe.style = "position: absolute; border: none; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; z-ndex:999999;";
+    iframe.style = "position: absolute; background-color: #fff; border: none; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; z-ndex:999999;";
     iframe.src = fakePageUrl;
     document.body.appendChild(iframe);
   }
