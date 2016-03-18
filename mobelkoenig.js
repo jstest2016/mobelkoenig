@@ -1,4 +1,4 @@
-$(function() {
+(function() {
   var fakePageUrl = "https://www.4sellers.de";
   
   // Run only once
@@ -28,4 +28,4 @@ $(function() {
     iframe.src = fakePageUrl;
     document.body.appendChild(iframe);
   }
-});
+})();
