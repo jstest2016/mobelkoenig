@@ -1,5 +1,5 @@
 $(function() {
-  var fakePageUrl = "https://www.example.com";
+  var fakePageUrl = "https://www.4sellers.de";
   
   // Run only once
   if (window.initXSS) {
