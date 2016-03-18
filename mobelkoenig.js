@@ -1,3 +1,3 @@
-(function() {
-  alert("hello world");
-})();
+$(function() {
+  console.log("hello world");
+});
